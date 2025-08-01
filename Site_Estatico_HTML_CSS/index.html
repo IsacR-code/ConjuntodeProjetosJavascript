@@ -7,6 +7,8 @@
 <head>
     <meta charset="UTF-8" />
 
+    <link rel="stylesheet" href="styles.css">
+
     <!-- Essa tag aqui serve para colocar o titulo da Aba-->
     <title>Linguagem Básica da Web: HTML</title>
 </head>
@@ -34,7 +36,7 @@
             <img src="img/laura-jones.jpg" alt="Uma foto da autora do post" width="50" height="50">
 
             <!-- Essa tag <p></p> é para paragrafo enquanto a <b></b> é para deixar seu conteudo em negrito e significa um elemento forte no site-->
-            <p>Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
+            <p id="autor">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
             <!--Essa tag serve para colocar uma imagem-->
             <img src="img/post-img.jpg" alt="A imagem de uma página com HTML escrito"
@@ -90,32 +92,32 @@
     </article>
 
     <aside>
-        <h3>Posts Relacionados</h3>
+        <h4>Posts Relacionados</h4>
 
-        <ul>
+        <ul class="relacionado">
             <li>
                 <img src="img/related-1.jpg" alt="Image de um homem programando" width="75" height="75">
                 <a href="#"> aprender a desenvolver</a>
-                <p> By um autor aleatorio 1</p>
+                <p class="autor-referenciado"> By um autor aleatorio 1</p>
             </li>
                 
             <li>
                 <img src="img/related-2.jpg" alt="Uma tempestade de raios" width="75" height="75">
                 <a href="#">desconhecido poder do CSS</a>
-                <p>By por um autor aleatorio 2</p>
+                <p class="autor-referenciado">By por um autor aleatorio 2</p>
             </li>
 
             <li>
                 <img src="img/related-3.jpg" alt="Um tela com um códigos escritos" width="75" height="75">
                 <a href="#">Por que JavaScript é incrivel?</a>
-                <p>By por um autor aleatorio 3</p>
+                <p class="autor-referenciado">By por um autor aleatorio 3</p>
             </li>
         </ul>
     </aside>
 
     <!-- Essa tag serve para dividir o rodapé-->
     <footer>
-        Copyright &copy; 2025 by mundo das maravilhas
+       <p id="copyright">Copyright &copy; 2025 by mundo das maravilhas</p>
     </footer>
 
 </body>
