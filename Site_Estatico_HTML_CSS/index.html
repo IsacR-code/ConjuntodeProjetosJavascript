@@ -15,110 +15,113 @@
 
 <!-- Aqui eu coloco todos os elementos visiveis do site-->
 <body>
+    <div class="conteiner">
 
-    <header class="main-header">
-        <!-- Isso aqui é a tag para cabeçalho, vai do h1 a h6-->
-        <h1>📘 The Code Magazine</h1>
+        <header class="main-header">
+            <!-- Isso aqui é a tag para cabeçalho, vai do h1 a h6-->
+            <h1>📘 The Code Magazine</h1>
 
-        <!-- nav serve para agrupar esse grupo-->
-        <nav>
-            <a href="blog.html">Blog</a>
-            <a href="#">Challenges</a>
-            <a href="#">Flexbox</a>
-            <a href="#">CSS Grid</a>
-        </nav>
-    </header>
-
-    <article>
-        <header>
-            <h2>Linguagem Básica da Web: HTML</h2>
-
-            <img src="img/laura-jones.jpg" alt="Uma foto da autora do post" width="50" height="50">
-
-            <!-- Essa tag <p></p> é para paragrafo enquanto a <b></b> é para deixar seu conteudo em negrito e significa um elemento forte no site-->
-            <p id="autor">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
-
-            <!--Essa tag serve para colocar uma imagem-->
-            <img src="img/post-img.jpg" alt="A imagem de uma página com HTML escrito"
-            width="500" height="200">
+            <!-- nav serve para agrupar esse grupo-->
+            <nav>
+                <a href="blog.html">Blog</a>
+                <a href="#">Challenges</a>
+                <a href="#">Flexbox</a>
+                <a href="#">CSS Grid</a>
+            </nav>
         </header>
-        
-        <!--A tag <em></em> aqui é usada para colocar em itálico-->
-        <p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
 
-        <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
+        <article>
+            <header class="post-header">
+                <h2>Linguagem Básica da Web: HTML</h2>
 
+                <img src="img/laura-jones.jpg" alt="Uma foto da autora do post" width="50" height="50">
 
-        <h3>O que é HTML?</h3>
-        <p>
-            HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
-        </p>
-        <p>
-            HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.
-        </p>
+                <!-- Essa tag <p></p> é para paragrafo enquanto a <b></b> é para deixar seu conteudo em negrito e significa um elemento forte no site-->
+                <p id="autor">Posted by <strong>Laura Jones</strong> on Monday, June 21st 2027</p>
 
-        <p>In HTML, each element is made up of 3 parts:</p>
-
-        <!--Essa tag aqui é para lista ordenada-->
-        <ol>
+                <!--Essa tag serve para colocar uma imagem-->
+                <img src="img/post-img.jpg" alt="A imagem de uma página com HTML escrito"
+                width="500" height="200" class="post-img">
+            </header>
             
-            <li>The opening tag</li>
-            <li>The closing tag</li>
-            <li>The actual element</li>
-        </ol>
+            <!--A tag <em></em> aqui é usada para colocar em itálico-->
+            <p>All modern websites and web applications are built using three <em>fundamental</em> technologies: HTML, CSS and JavaScript. These are the languages of the web.</p>
 
-        <p>
-            Você pode aprender mais em
-            <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web SDocs</a>
-        
-        </p>    
+            <p>In this post, let's focus on HTML. We will learn what HTML is all about, and why you too should learn it.</p>
 
-        <h3>Why should you learn HTML?</h3>
 
-        <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
+            <h3>O que é HTML?</h3>
+            <p>
+                HTML stands for <strong>H</strong>yper<strong>T</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage. It's a markup language that web developers use to structure and describe the content of a webpage (not a programming language).
+            </p>
+            <p>
+                HTML consists of elements that describe different types of content: paragraphs, links, headings, images, video, etc. Web browsers understand HTML and render HTML code as websites.
+            </p>
 
-    <!--Essa tag aqui faz uma lista não ordenada-->
-        <ul>
-            <li>To be able to use the fundamental web dev language</li>
-            <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
-            <li>To build web applications</li>
-            <li>To impress friends</li>
-            <li>To have fun 😃</li>
-        </ul>
+            <p>In HTML, each element is made up of 3 parts:</p>
 
-        <p>Hopefully you learned something new here. See you next time!</p>
-
-        
-    </article>
-
-    <aside>
-        <h4>Posts Relacionados</h4>
-
-        <ul class="relacionado">
-            <li>
-                <img src="img/related-1.jpg" alt="Image de um homem programando" width="75" height="75">
-                <a href="#"> aprender a desenvolver</a>
-                <p class="autor-referenciado"> By um autor aleatorio 1</p>
-            </li>
+            <!--Essa tag aqui é para lista ordenada-->
+            <ol>
                 
-            <li>
-                <img src="img/related-2.jpg" alt="Uma tempestade de raios" width="75" height="75">
-                <a href="#">desconhecido poder do CSS</a>
-                <p class="autor-referenciado">By por um autor aleatorio 2</p>
-            </li>
+                <li>The opening tag</li>
+                <li>The closing tag</li>
+                <li>The actual element</li>
+            </ol>
 
-            <li>
-                <img src="img/related-3.jpg" alt="Um tela com um códigos escritos" width="75" height="75">
-                <a href="#">Por que JavaScript é incrivel?</a>
-                <p class="autor-referenciado">By por um autor aleatorio 3</p>
-            </li>
-        </ul>
-    </aside>
+            <p>
+                Você pode aprender mais em
+                <a href="https://developer.mozilla.org/pt-BR/docs/Web/HTML" target="_blank">MDN Web SDocs</a>
+            
+            </p>    
 
-    <!-- Essa tag serve para dividir o rodapé-->
-    <footer>
-       <p id="copyright">Copyright &copy; 2025 by mundo das maravilhas</p>
-    </footer>
+            <h3>Why should you learn HTML?</h3>
+
+            <p>There are countless reasons for learning the fundamental language of the web. Here are 5 of them:</p>
+
+        <!--Essa tag aqui faz uma lista não ordenada-->
+            <ul>
+                <li>To be able to use the fundamental web dev language</li>
+                <li>To hand-craft beautiful websites instead of relying on tools like Worpress or Wix</li>
+                <li>To build web applications</li>
+                <li>To impress friends</li>
+                <li>To have fun 😃</li>
+            </ul>
+
+            <p>Hopefully you learned something new here. See you next time!</p>
+
+            
+        </article>
+
+        <aside>
+            <h4>Posts Relacionados</h4>
+
+            <ul class="relacionado">
+                <li>
+                    <img src="img/related-1.jpg" alt="Image de um homem programando" width="75" height="75">
+                    <a href="#"> aprender a desenvolver</a>
+                    <p class="autor-referenciado"> By um autor aleatorio 1</p>
+                </li>
+                    
+                <li>
+                    <img src="img/related-2.jpg" alt="Uma tempestade de raios" width="75" height="75">
+                    <a href="#">desconhecido poder do CSS</a>
+                    <p class="autor-referenciado">By por um autor aleatorio 2</p>
+                </li>
+
+                <li>
+                    <img src="img/related-3.jpg" alt="Um tela com um códigos escritos" width="75" height="75">
+                    <a href="#">Por que JavaScript é incrivel?</a>
+                    <p class="autor-referenciado">By por um autor aleatorio 3</p>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- Essa tag serve para dividir o rodapé-->
+        <footer>
+        <p id="copyright">Copyright &copy; 2025 by mundo das maravilhas</p>
+        </footer>
+
+    </div>
 
 </body>
 
